@@ -1,0 +1,108 @@
+body #first-page {
+position:fixed;
+top:0;
+height:600px;
+width:100%;
+text-align:center;
+background:url(../minard_1000w.png) no-repeat top center;
+background-size:contain;
+border: none;
+
+padding:0;
+}
+
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+		background: none;
+	  }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+body.scrolled .top-bar {
+opacity:1;
+}
+
+body.scrolled #first-page .first-page-content {
+opacity:0;
+}
+
+img.img-opq {
+	opacity: 0.5;
+}
+
+body #first-page .first-page-content {
+transition:opacity .2s linear;
+-moz-transition:opacity .2s linear;
+opacity:1;
+position:relative;
+height:100%;
+background-color:rgba(255,255,255,0.6);
+}
+
+body #first-page .logo {
+width:120px;
+height:120px;
+margin:50px 0 15px;
+}
+
+body #first-page .tagline {
+color:#fff;
+text-shadow:0 -1px 1px #444;
+font-size:32px;
+}
+
+body #first-page .button {
+margin-top:50px;
+}
+
+body #fourth-page  {
+height:300px;
+}
+
+
+body #second-page {
+border-top:1px solid #666;
+margin-top:600px;
+
+}
+
+body .home-top-bar {
+position:fixed;
+top:0;
+width:100%;
+z-index:2;
+margin-bottom:0;
+opacity:0;
+transition:opacity .2s linear;
+-moz-transition:opacity .2s linear;
+}
+
+body .page {
+position:relative;
+background:url(../bg.png);
+border-bottom:1px solid #ddd;
+-webkit-transform:translate3d(0,0,0);
+padding:10px;
+}
+
+.polylabel {
+	font-size: 12px;
+	fill-opacity: 0.6;
+}
+
+.monolabel {
+	font-size: 60px;
+	fill-opacity: 0.6;
+}
+

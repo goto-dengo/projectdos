@@ -1,0 +1,49 @@
+body #first-page {
+position:fixed;
+top:0;
+height:600px;
+width:100%;
+text-align:center;
+background:url(../slope_75.png) no-repeat center center;
+background-size:contain;
+border: none;
+
+padding:0;
+}
+
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+		background: none;
+	  }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+body.scrolled .top-bar {
+opacity:1;
+}
+
+body.scrolled #first-page .first-page-content {
+opacity:0;
+}
+
+
+
+body #first-page .first-page-content {
+transition:opacity .2s linear;
+-moz-transition:opacity .2s linear;
+opacity:1;
+position:relative;
+height:100%;
+background-color:rgba(255,255,255,0.6);
+}
+
+
+
